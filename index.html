@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Drunken Octopus Marlin: An Alternative (Unofficial) Firmware for LulzBot Printers">
+  
+  <link rel="canonical" href="http://www.drunkenoctop.us/">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Drunken Octopus</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Home";
+    var mkdocs_page_input_path = "index.md";
+    var mkdocs_page_url = "/";
+  </script>
+  
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-175976737-1', 'drunkenoctop.us');
+      ga('send', 'pageview');
+  </script>
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="." class="icon icon-home"> Drunken Octopus</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <p class="caption"><span class="caption-text">Supported Printers</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="" href="printers/mini.md">Mini</a>
+                    </li>
+                    <li class="toctree-l1"><a class="" href="printers/mini2.md">Mini 2</a>
+                    </li>
+                    <li class="toctree-l1"><a class="" href="printers/taz5.md">Taz 5</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="printers/taz6/">Taz 6</a>
+                    </li>
+                    <li class="toctree-l1"><a class="" href="printers/tazPro.md">Taz Pro</a>
+                    </li>
+                    <li class="toctree-l1"><a class="" href="printers/tazWorkhorse.md">Taz Workhorse</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="compile-from-source/">Building from source</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="contributing/">Contributing</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="faq/">FAQ</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href=".">Drunken Octopus</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Home</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/drunken-octopus/drunkenoctop.us/edit/master/docs/index.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p><img alt="Drunken Octopus Logo" src="drunken-octopus-small.jpg" /></p>
+<h1 id="introduction">Introduction</h1>
+<p><em>Drunken Octopus</em> Marlin: An Alternative (Unofficial) Firmware for AlephObjects Printers</p>
+<h2 id="who-can-benefit-from-drunken-octopus-marlin">Who can benefit from <em>Drunken Octopus</em> Marlin?</h2>
+<p>This firmware is for users who want the very latest firmware and features for their AlephObjects 
+printers and <strong>are willing to take the risks associated with running development firmware</strong>. It is 
+also for people who want to modify their AlephObjects printers into custom configurations.</p>
+<p>Default firmware may not be current or may have certain features turned off for the comfort of new 
+users. On the contrary, <em>Drunken Octopus</em> will charge right ahead, taking it all in, because that 
+is how he likes to roll! :sunglasses:</p>
+<h2 id="drunken-octopus-comes-in-up-to-196-different-flavors"><em>Drunken Octopus</em> comes in up to 196 different flavors!</h2>
+<p>If you are savvy with electrical and mechanical things, <em>Drunken Octopus</em> will give you the 
+software to match any hardware upgrades you make to your printer. See the [FAQ] for a complete 
+list of supported printers!</p>
+<h1 id="how-can-you-help-make-drunken-octopus-a-success">How can you help make <em>Drunken Octopus</em> a success?</h1>
+<p>See the <a href="contributing/">contributing</a> page for a list of ways to chip in!</p>
+<h1 id="support">Support</h1>
+<ul>
+<li><a href="https://forums.drunkenoctop.us/">Forums</a></li>
+<li><a href="https://github.com/drunken-octopus/drunken-octopus-marlin/issues">GitHub Issues</a></li>
+</ul>
+<h2 id="got-more-questions">Got more questions?</h2>
+<p>See the <a href="faq/">FAQ</a> for information on the following topics:</p>
+<ul>
+<li>What printers can I use with <em>Drunken Octopus</em>?</li>
+<li>How can you contribute to <em>Drunken Octopus</em>?</li>
+<li>How does <em>Drunken Octopus</em> differ from factory Marlin?</li>
+<li>How does <em>Drunken Octopus</em> differ from Marlin upstream?</li>
+<li>Will <em>Drunken Octopus</em> damage my printer?</li>
+<li>What if I want my printer to remain sober?</li>
+<li>Will <em>Drunken Octopus</em> binaries and pre-build configuration files be provided?</li>
+<li>How do I compile <em>Drunken Octopus</em> from source?</li>
+<li>Where can I find parts to upgrade my printer?</li>
+</ul>
+<h1 id="license">License</h1>
+<p>Marlin is published under the <a href="/LICENSE">GPL license</a> because we believe in open development. 
+The GPL comes with both rights and obligations. Whether you use Marlin firmware as the driver 
+for your open or closed-source product, you must keep Marlin open, and you must provide your 
+compatible Marlin source code to end users upon request. The most straightforward way to comply 
+with the Marlin license is to make a fork of Marlin on Github, perform your modifications, and 
+direct users to your modified fork.</p>
+<p>While we can't prevent the use of this code in products (3D printers, CNC, etc.) that are closed 
+source or crippled by a patent, we would prefer that you choose another firmware or, better yet, 
+make your own.</p>
+<p><strong>Photo Credits:</strong> Coat hanger photograph by Ari Sytner. Used with permission.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/drunken-octopus/drunkenoctop.us/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.1.2
+Build Date UTC : 2020-08-22 06:02:18.588673+00:00
+-->
