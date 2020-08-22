@@ -23,7 +23,7 @@ node {
                 sh 'git config user.name "Jenkins"'
                 sh "echo `git add --all . && git commit -m 'Build ${BUILD_NUMBER}' .`"
                 sshagent(credentials: ['jenkins-drunkenoctop.us']) {
-                    sh "git push '${docsRepository}' gh-pages"
+                    sh "git push '${docsRepository}' master" 
                 }
             }
         }
