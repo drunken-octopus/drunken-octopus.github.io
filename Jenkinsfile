@@ -1,4 +1,4 @@
-def dockerImage = 'drunkenoctopus/drunken-octopus-build-image:0.0.1'
+def dockerImage = 'drunkenoctopus/drunken-octopus-build-image:latest'
 def docsRepository = 'git@github.com:drunken-octopus/drunken-octopus.github.io.git'
 node {
     deleteDir()
