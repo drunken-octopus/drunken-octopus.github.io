@@ -17,8 +17,9 @@ is how he likes to roll! :sunglasses:
 ## *Drunken Octopus* comes in up to 196 different flavors!
 
 If you are savvy with electrical and mechanical things, *Drunken Octopus* will give you the 
-software to match any hardware upgrades you make to your printer. See the [FAQ] for a complete 
-list of supported printers!
+software to match any hardware upgrades you make to your printer. For a complete list of
+suported printers, head over to the [Drunken Octopus Firmware Tool].
+
 
 # How can you help make *Drunken Octopus* a success?
 
@@ -26,23 +27,19 @@ See the [contributing](contributing.md) page for a list of ways to chip in!
 
 # Support
 
-* [Forums](https://forums.drunkenoctop.us/)
-* [GitHub Issues](https://github.com/drunken-octopus/drunken-octopus-marlin/issues)
+* [Forums]
+* [GitHub Issues]
+* [Drunken Octopus Wiring Guide]
+* [Drunken Octopus Firmware Tool]
 
 ## Got more questions?
 
 See the [FAQ](faq.md) for information on the following topics:
 
-- What printers can I use with *Drunken Octopus*?
-- How can you contribute to *Drunken Octopus*?
-- How does *Drunken Octopus* differ from factory Marlin?
-- How does *Drunken Octopus* differ from Marlin upstream?
+- Will *Drunken Octopus* binaries and pre-build configuration files be provided?
+- Will using *Drunken Octopus* void my printer warranty?
 - Will *Drunken Octopus* damage my printer?
 - What if I want my printer to remain sober?
-- Will *Drunken Octopus* binaries and pre-build configuration files be provided?
-- How do I compile *Drunken Octopus* from source?
-- Where can I find parts to upgrade my printer?
-
 
 
 # License
@@ -59,3 +56,8 @@ source or crippled by a patent, we would prefer that you choose another firmware
 make your own.
 
 **Photo Credits:** Coat hanger photograph by Ari Sytner. Used with permission.
+
+[Forums]: https://forums.drunkenoctop.us/
+[GitHub Issues]: https://github.com/drunken-octopus/drunken-octopus-marlin/issues
+[Drunken Octopus Firmware Tool]: http://www.drunkenoctop.us/drunken-octopus-downloader/
+[Drunken Octopus Wiring Guide]: (https://www.drunkenoctop.us/drunken-octopus-marlin/pinouts/

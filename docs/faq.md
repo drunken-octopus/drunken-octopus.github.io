@@ -3,9 +3,11 @@
 ## Will *Drunken Octopus* binaries and pre-build configuration files be provided?
 
 To get you started with *Drunken Octopus*, pre-built binaries and configs will be provided for 
-the **stock toolhead** for each **standard AlephObjects printer** (as indicated by :factory: 
-in [this page](Supported-Printers-and-Toolheads)). 
-Check the [releases page] on GitHub.
+the **stock toolhead** for each **standard AlephObjects printer** for free. Patreon supporters
+will have access to additional builds.
+
+You can either use the browser based [Drunken Octopus Firmware Tool] to download and upload
+firmware to your printer or download a full archive from the [releases page] page on GitHub.
 
 Source code for building everything will always be available to anyone!
 
@@ -24,4 +26,5 @@ Reach out to [the current owners] and use their firmware. Rumor has it they are 
 
 [logo]: https://github.com/marciot/drunken-octopus-marlin/raw/master/images/drunk-octopus-lcd-2.bmp "Drunken Octopus Logo"
 [releases page]: https://github.com/marciot/drunken-octopus-marlin/releases
+[Drunken Octopus Firmware Tool](http://www.drunkenoctop.us/drunken-octopus-downloader/)
 [the current owners]: https://www.lulzbot.com/
