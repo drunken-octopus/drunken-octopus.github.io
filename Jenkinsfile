@@ -1,4 +1,4 @@
-def dockerImage = 'drunkenoctopus/drunken-octopus-build-image:latest'
+def dockerImage = 'drunkenoctopus/drunken-octopus-build-image:mkdocs-1'
 def docsRepository = 'git@github.com:drunken-octopus/drunken-octopus.github.io.git'
 node {
     deleteDir()
@@ -6,7 +6,6 @@ node {
 
     stage('build') {
         docker.image(dockerImage).inside {
-            sh 'pip install -r requirements.txt'
             sh 'mkdocs build'
             archiveArtifacts "site/**/*"
         }
