@@ -124,7 +124,7 @@
                 <h2 id="compile-from-source">Compile from source</h2>
 <p><strong>Windows 10:</strong> If you are using Windows 10, one of the easiest ways to build the firmware is using <em>Windows Subsystem for Linux (WSL)</em>. Simply follow [this guide] to set up WSL and get yourself an Ubuntu shell, then proceed with the steps for Linux.</p>
 <p><strong>Linux:</strong> Open a shell and execute the following commands one at a time:</p>
-<pre><code class="bash">sudo apt-get update
+<pre><code class="language-bash">sudo apt-get update
 sudo apt-get install python git make rename
 sudo apt-get install gcc-avr avr-libc
 sudo apt-get install gcc-arm-none-eabi
@@ -135,7 +135,6 @@ cd marlin
 ./build-configs.sh
 ./build-firmware.sh
 </code></pre>
-
 <p>Once this process is complete (it may take several hours), the firmware files will be in the <code>build</code> directory of your Documents folder.</p>
 <p><strong>Arduino IDE:</strong> In order to use the Arduino IDE, you will need download and extract the zip file from the [GitHub repo].</p>
 <p>The, go into the unpacked folder and replace the "Configuration.h" and "Configuration_adv.h" files in the "Marlin" subdirectory with one of the example configuration files from "config/examples/AlephObjects". <em>Drunken Octopus</em> will only include the configuration files for the standard printers and toolheads.</p>
