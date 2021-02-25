@@ -6,6 +6,7 @@ node {
 
     stage('build') {
         docker.image(dockerImage).inside {
+            sh 'pip install -r requirements.txt'
             sh 'mkdocs build'
             archiveArtifacts "site/**/*"
         }
