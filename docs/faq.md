@@ -9,7 +9,7 @@ will have access to additional builds.
 You can either use the browser based [Drunken Octopus Firmware Tool] to download and upload
 firmware to your printer or download a full archive from the [releases page] page on GitHub.
 
-Source code for building everything will always be available to anyone!
+[Source code] for building everything will always be available to anyone!
 
 ## Will using *Drunken Octopus* void my printer warranty?
 
@@ -26,5 +26,6 @@ Reach out to [the current owners] and use their firmware. Rumor has it they are 
 
 [logo]: https://github.com/marciot/drunken-octopus-marlin/raw/master/images/drunk-octopus-lcd-2.bmp "Drunken Octopus Logo"
 [releases page]: https://github.com/marciot/drunken-octopus-marlin/releases
+[Source code]: https://github.com/marciot/drunken-octopus-marlin
 [Drunken Octopus Firmware Tool]: http://www.drunkenoctop.us/drunken-octopus-downloader/
 [the current owners]: https://www.lulzbot.com/

@@ -23,7 +23,7 @@ possibilities!
 
 ## Got questions?
 
-See the [FAQ](faq.md) for answers to the following questions:
+See the [FAQ] for answers to the following questions:
 
 - Will *Drunken Octopus* binaries and pre-build configuration files be provided?
 - Will using *Drunken Octopus* void my printer warranty?
@@ -32,15 +32,15 @@ See the [FAQ](faq.md) for answers to the following questions:
 
 # Need more assistance?
 
-*Drunken Octopus* is community supported. Head over to the [Forums] to get help.
+*Drunken Octopus* is supported by a community of users. Head over to the [Forums] to get help.
 
 # How can you help make *Drunken Octopus* a success?
 
-See the [contributing](contributing.md) page for a list of ways to chip in!
+See the [contributing] page for a list of ways to chip in!
 
 # License
 
-Marlin is published under the [GPL license](/LICENSE) because we believe in open development. 
+Marlin is published under the [GPL license] because we believe in open development. 
 The GPL comes with both rights and obligations. Whether you use Marlin firmware as the driver 
 for your open or closed-source product, you must keep Marlin open, and you must provide your 
 compatible Marlin source code to end users upon request. The most straightforward way to comply 
@@ -53,7 +53,10 @@ make your own.
 
 **Photo Credits:** Coat hanger photograph by Ari Sytner. Used with permission.
 
+[FAQ]: faq.md
+[contributing]: contributing.md
+[GPL license]: /LICENSE
 [Forums]: https://forums.drunkenoctop.us/
 [GitHub Issues]: https://github.com/drunken-octopus/drunken-octopus-marlin/issues
 [Drunken Octopus Firmware Tool]: http://www.drunkenoctop.us/drunken-octopus-downloader/
-[Drunken Octopus Wiring Guide]: (https://www.drunkenoctop.us/drunken-octopus-marlin/pinouts/
+[Drunken Octopus Wiring Guide]: https://www.drunkenoctop.us/drunken-octopus-marlin/pinouts/
