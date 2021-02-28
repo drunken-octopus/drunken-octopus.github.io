@@ -12,35 +12,31 @@ also for people who want to modify their AlephObjects printers into custom confi
 
 Default firmware may not be current or may have certain features turned off for the comfort of new 
 users. On the contrary, *Drunken Octopus* will charge right ahead, taking it all in, because that 
-is how he likes to roll! :sunglasses:
+is how he likes to roll!
 
 ## *Drunken Octopus* comes in up to 196 different flavors!
 
 If you are savvy with electrical and mechanical things, *Drunken Octopus* will give you the 
-software to match any hardware upgrades you make to your printer. For a complete list of
-suported printers, head over to the [Drunken Octopus Firmware Tool].
+software to match any hardware upgrades you make to your printer. Head over to the the
+[Drunken Octopus Firmware Tool] and [Drunken Octopus Wiring Guide] to see all the
+possibilities!
 
+## Got questions?
 
-# How can you help make *Drunken Octopus* a success?
-
-See the [contributing](contributing.md) page for a list of ways to chip in!
-
-# Support
-
-* [Forums]
-* [GitHub Issues]
-* [Drunken Octopus Wiring Guide]
-* [Drunken Octopus Firmware Tool]
-
-## Got more questions?
-
-See the [FAQ](faq.md) for information on the following topics:
+See the [FAQ](faq.md) for answers to the following questions:
 
 - Will *Drunken Octopus* binaries and pre-build configuration files be provided?
 - Will using *Drunken Octopus* void my printer warranty?
 - Will *Drunken Octopus* damage my printer?
 - What if I want my printer to remain sober?
 
+# Need more assistance?
+
+*Drunken Octopus* is community supported. Head over to the [Forums] to get help.
+
+# How can you help make *Drunken Octopus* a success?
+
+See the [contributing](contributing.md) page for a list of ways to chip in!
 
 # License
 

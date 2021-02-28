@@ -26,5 +26,5 @@ Reach out to [the current owners] and use their firmware. Rumor has it they are 
 
 [logo]: https://github.com/marciot/drunken-octopus-marlin/raw/master/images/drunk-octopus-lcd-2.bmp "Drunken Octopus Logo"
 [releases page]: https://github.com/marciot/drunken-octopus-marlin/releases
-[Drunken Octopus Firmware Tool](http://www.drunkenoctop.us/drunken-octopus-downloader/)
+[Drunken Octopus Firmware Tool]: http://www.drunkenoctop.us/drunken-octopus-downloader/
 [the current owners]: https://www.lulzbot.com/
